@@ -35,11 +35,11 @@ def topic(request, topic_id):
 @login_required
 def new_topic(request):
     """ 添加新主题 """
-    if request.method != 'Post':
+    if request.method != 'POST':
         # 未提交数据：创建一个新表单
         form = TopicForm()
     else:
-        form = TopicForm(request.Post)
+        form = TopicForm(request.POST)
         if form.is_valid():
             new_topic = form.save(commit=False)
             new_topic.owner = request.user
@@ -54,6 +54,8 @@ def new_topic(request):
 def new_entry(request, topic_id):
     """在特定的主题中添加新条目"""
     topic = Topic.objects.get(id=topic_id)
+    if topic.owner != request.user:
+        raise Http404
     if request.method != 'POST':
         # 未提交数据,创建一个空表单
         form = EntryForm()
