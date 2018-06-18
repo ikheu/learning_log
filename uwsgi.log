@@ -1,0 +1,182 @@
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May 21 18:35:48 2018] ***
+compiled with version: 5.4.0 20160609 on 21 May 2018 06:17:40
+os: Linux-4.13.0-41-generic #46~16.04.1-Ubuntu SMP Thu May 3 10:06:43 UTC 2018
+nodename: ik-ThinkPad-T470p
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/ik/learning_log
+detected binary path: /home/ik/learning_log/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ik/learning_log
+your processes number limit is 30475
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8087 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x10d59e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x10d59e0 pid: 19113 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19113)
+spawned uWSGI worker 1 (pid: 19115, cores: 1)
+spawned uWSGI worker 2 (pid: 19116, cores: 1)
+spawned uWSGI worker 3 (pid: 19117, cores: 1)
+spawned uWSGI worker 4 (pid: 19118, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May 21 18:36:17 2018] ***
+compiled with version: 5.4.0 20160609 on 21 May 2018 06:17:40
+os: Linux-4.13.0-41-generic #46~16.04.1-Ubuntu SMP Thu May 3 10:06:43 UTC 2018
+nodename: ik-ThinkPad-T470p
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/ik/learning_log
+detected binary path: /home/ik/learning_log/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ik/learning_log
+your processes number limit is 30475
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8087).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May 21 18:36:18 2018] ***
+compiled with version: 5.4.0 20160609 on 21 May 2018 06:17:40
+os: Linux-4.13.0-41-generic #46~16.04.1-Ubuntu SMP Thu May 3 10:06:43 UTC 2018
+nodename: ik-ThinkPad-T470p
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/ik/learning_log
+detected binary path: /home/ik/learning_log/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ik/learning_log
+your processes number limit is 30475
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8087).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 19116|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 798 bytes} [Mon May 21 10:36:59 2018] GET / => generated 1789 bytes in 32 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 19117|app: 0|req: 1/2] 127.0.0.1 () {42 vars in 775 bytes} [Mon May 21 10:37:00 2018] GET /favicon.ico => generated 3192 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 19118|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 834 bytes} [Mon May 21 10:37:13 2018] GET / => generated 1789 bytes in 56 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19117|app: 0|req: 2/4] 127.0.0.1 () {44 vars in 834 bytes} [Mon May 21 10:37:14 2018] GET / => generated 1789 bytes in 45 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19115|app: 0|req: 1/5] 127.0.0.1 () {44 vars in 848 bytes} [Mon May 21 10:37:15 2018] GET /topics/ => generated 1775 bytes in 56 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19118|app: 0|req: 2/6] 127.0.0.1 () {44 vars in 855 bytes} [Mon May 21 10:37:18 2018] GET /topics/ => generated 1775 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19115|app: 0|req: 2/7] 127.0.0.1 () {44 vars in 841 bytes} [Mon May 21 10:37:18 2018] GET / => generated 1789 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19115|app: 0|req: 3/8] 127.0.0.1 () {44 vars in 834 bytes} [Mon May 21 10:38:47 2018] GET / => generated 1789 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19116|app: 0|req: 2/9] 127.0.0.1 () {44 vars in 848 bytes} [Mon May 21 10:38:48 2018] GET /topics/ => generated 1775 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19115|app: 0|req: 4/10] 127.0.0.1 () {44 vars in 841 bytes} [Mon May 21 10:38:49 2018] GET / => generated 1789 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19117|app: 0|req: 3/11] 127.0.0.1 () {44 vars in 848 bytes} [Mon May 21 10:38:49 2018] GET /topics/ => generated 1775 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19115|app: 0|req: 5/12] 127.0.0.1 () {44 vars in 841 bytes} [Mon May 21 10:38:50 2018] GET / => generated 1789 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19115|app: 0|req: 6/13] 127.0.0.1 () {44 vars in 834 bytes} [Mon May 21 10:38:53 2018] GET / => generated 1789 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19117|app: 0|req: 4/14] 127.0.0.1 () {44 vars in 829 bytes} [Mon May 21 11:01:46 2018] GET / => generated 1789 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19116|app: 0|req: 3/15] 127.0.0.1 () {44 vars in 834 bytes} [Mon May 21 11:01:50 2018] GET / => generated 1789 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19115|app: 0|req: 7/16] 127.0.0.1 () {44 vars in 848 bytes} [Mon May 21 11:01:51 2018] GET /topics/ => generated 1775 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19118|app: 0|req: 3/17] 127.0.0.1 () {44 vars in 841 bytes} [Mon May 21 11:01:52 2018] GET / => generated 1789 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19117|app: 0|req: 5/18] 127.0.0.1 () {44 vars in 848 bytes} [Mon May 21 11:01:54 2018] GET /topics/ => generated 1775 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19118|app: 0|req: 4/19] 127.0.0.1 () {44 vars in 859 bytes} [Mon May 21 11:01:56 2018] GET /topics/1/ => generated 2675 bytes in 28 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19115|app: 0|req: 8/20] 127.0.0.1 () {44 vars in 843 bytes} [Mon May 21 11:02:01 2018] GET / => generated 1789 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19118|app: 0|req: 5/21] 127.0.0.1 () {44 vars in 848 bytes} [Mon May 21 11:02:03 2018] GET /topics/ => generated 1775 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19115|app: 0|req: 9/22] 127.0.0.1 () {44 vars in 841 bytes} [Mon May 21 11:02:03 2018] GET / => generated 1789 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19117|app: 0|req: 6/23] 127.0.0.1 () {44 vars in 848 bytes} [Mon May 21 11:02:04 2018] GET /topics/ => generated 1775 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19118|app: 0|req: 6/24] 127.0.0.1 () {44 vars in 841 bytes} [Mon May 21 11:02:05 2018] GET / => generated 1789 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19115|app: 0|req: 10/25] 127.0.0.1 () {44 vars in 829 bytes} [Mon May 21 11:02:07 2018] GET / => generated 1789 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 19115|app: 0|req: 11/26] 127.0.0.1 () {42 vars in 798 bytes} [Mon May 21 12:33:23 2018] GET / => generated 1789 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 19115|app: 0|req: 12/27] 127.0.0.1 () {42 vars in 775 bytes} [Mon May 21 12:33:23 2018] GET /favicon.ico => generated 3192 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+...brutally killing workers...
+Gracefully killing worker 2 (pid: 19116)...
+worker 2 buried after 0 seconds
+worker 1 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ik/learning_log
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8087)
+running /home/ik/learning_log/venv/bin/uwsgi
+[uWSGI] getting INI configuration from learning_log_uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May 21 12:34:53 2018] ***
+compiled with version: 5.4.0 20160609 on 21 May 2018 06:17:40
+os: Linux-4.13.0-41-generic #46~16.04.1-Ubuntu SMP Thu May 3 10:06:43 UTC 2018
+nodename: ik-ThinkPad-T470p
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/ik/learning_log
+detected binary path: /home/ik/learning_log/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ik/learning_log
+your processes number limit is 30475
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8087 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x130d300
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x130d300 pid: 19113 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19113)
+spawned uWSGI worker 1 (pid: 21349, cores: 1)
+spawned uWSGI worker 2 (pid: 21350, cores: 1)
+spawned uWSGI worker 3 (pid: 21351, cores: 1)
+spawned uWSGI worker 4 (pid: 21352, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Sun Jun 10 17:42:06 2018] ***
+compiled with version: 5.4.0 20160609 on 21 May 2018 06:17:40
+os: Linux-4.13.0-43-generic #48~16.04.1-Ubuntu SMP Thu May 17 12:56:46 UTC 2018
+nodename: ik-ThinkPad-T470p
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/ik/learning_log
+detected binary path: /home/ik/learning_log/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ik/learning_log
+your processes number limit is 30474
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8087 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7a5980
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7a5980 pid: 31044 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31044)
+spawned uWSGI worker 1 (pid: 31046, cores: 1)
+spawned uWSGI worker 2 (pid: 31047, cores: 1)
+spawned uWSGI worker 3 (pid: 31048, cores: 1)
+spawned uWSGI worker 4 (pid: 31049, cores: 1)
+[pid: 31047|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 856 bytes} [Sun Jun 10 09:42:26 2018] GET / => generated 1964 bytes in 73 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 31046|app: 0|req: 1/2] 127.0.0.1 () {46 vars in 855 bytes} [Sun Jun 10 09:42:30 2018] GET /favicon.ico => generated 3192 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 3 (pid: 31048)...
+Gracefully killing worker 4 (pid: 31049)...
+Gracefully killing worker 2 (pid: 31047)...
+Gracefully killing worker 1 (pid: 31046)...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

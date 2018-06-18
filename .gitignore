@@ -20,7 +20,8 @@ nosetests.xml
 .pydevproject
 
 # SQLite databases
-*.sqlite
+*.sqlite3
+.idea
 
 # Virtual environment
 venv
